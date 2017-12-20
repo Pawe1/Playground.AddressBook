@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AddressBook.Tests
 {
-    public class Class1
+    public class MultitestFixture
     {
     }
 }
