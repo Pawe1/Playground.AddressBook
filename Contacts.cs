@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace AddressBook
 {
-    class Contacts
+    public class Contacts
     {
-        Contacts()
+        public Contacts()
         {
             Items = new List<Contact>();
         }
 
-        public List<Contact> Items { get; }
+        public List<Contact> Items { get; set; }
     }
 }
